@@ -1,1 +1,2 @@
 # My3DTank-Linx_Server
+各位小伙伴们好，第一个文件夹是Unity3D上的前端代码，第二个是Linux上用CodeBlocks写的C语言服务器
