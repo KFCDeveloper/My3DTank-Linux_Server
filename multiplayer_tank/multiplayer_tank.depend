@@ -1,0 +1,157 @@
+# depslib dependency file v1.0
+1540518138 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/test.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	"protocol_bytes.h"
+	"data_manager.h"
+	"serv_net.h"
+	"room.h"
+	"room_mgr.h"
+
+1540693643 /home/ydy/Documents/linux_experiment/multiplayer_tank/protocol_bytes.h
+	<iostream>
+	"protocol_base.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1539681315 /home/ydy/Documents/linux_experiment/multiplayer_tank/protocol_base.h
+	<iostream>
+	<stdio.h>
+
+1540452523 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/data_manager.cpp
+	<iostream>
+	"data_manager.h"
+	<string>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1540356737 /home/ydy/Documents/linux_experiment/multiplayer_tank/data_manager.h
+	"/usr/include/mysql/mysql.h"
+
+1539693729 /home/ydy/Documents/linux_experiment/multiplayer_tank/mysql.h
+	<standards.h>
+	<sys/types.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1524208612 /usr/include/mysql/mysql.h
+	<standards.h>
+	<sys/types.h>
+	"mysql_version.h"
+	"mysql_com.h"
+	"mysql_time.h"
+	"my_list.h"
+	"typelib.h"
+	"my_alloc.h"
+
+1534431872 /usr/include/mysql/mysql_version.h
+	<custom_conf.h>
+
+1524208612 /usr/include/mysql/mysql_com.h
+
+1524208612 /usr/include/mysql/mysql_time.h
+
+1524208612 /usr/include/mysql/my_list.h
+
+1524208612 /usr/include/mysql/typelib.h
+	"my_alloc.h"
+
+1524208612 /usr/include/mysql/my_alloc.h
+
+1539745769 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/Conn.cpp
+
+1540626684 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/conn.cpp
+	<iostream>
+	"conn.h"
+	"data_manager.h"
+	"protocol_bytes.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
+1540694036 /home/ydy/Documents/linux_experiment/multiplayer_tank/conn.h
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<errno.h>
+	<iostream>
+	"protocol_base.h"
+
+1540747516 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/serv_net.cpp
+	"serv_net.h"
+	"conn.h"
+	<iostream>
+	"protocol_bytes.h"
+	"msg_distribution.h"
+	<sys/socket.h>
+	<sys/epoll.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<fcntl.h>
+	<unistd.h>
+	<stdio.h>
+	<errno.h>
+	<strings.h>
+	<stdlib.h>
+	<sys/time.h>
+	<signal.h>
+
+1540536964 /home/ydy/Documents/linux_experiment/multiplayer_tank/serv_net.h
+	"conn.h"
+	"protocol_base.h"
+	"data_manager.h"
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+
+1540749142 /home/ydy/Documents/linux_experiment/multiplayer_tank/msg_distribution.h
+	"protocol_bytes.h"
+	"data_manager.h"
+	"room_mgr.h"
+	"room.h"
+	<iostream>
+	<stdio.h>
+	<time.h>
+
+1540626632 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/room.cpp
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/time.h>
+	<iostream>
+	"room.h"
+	"serv_net.h"
+
+1540626509 /home/ydy/Documents/linux_experiment/multiplayer_tank/room.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<iostream>
+	"conn.h"
+
+1540538942 /home/ydy/Documents/linux_experiment/multiplayer_tank/room_mgr.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<iostream>
+	"room.h"
+
+1540553308 source:/home/ydy/Documents/linux_experiment/multiplayer_tank/room_mgr.cpp
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<iostream>
+	"room_mgr.h"
+

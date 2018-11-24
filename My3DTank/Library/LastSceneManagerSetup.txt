@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Kawaii_Tanks_Project/Kawaii_Tanks_Assets/Scenes/Town.unity
+  isLoaded: 1
+  isActive: 1
